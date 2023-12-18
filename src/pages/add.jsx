@@ -10,7 +10,7 @@ const Container = styled.div`
  margin: 1rem
 `; 
 
-const Form = styled.div`
+const Form = styled.form`
  display: flex; 
  flex-direction: column; 
  min-width: 30vw; 
