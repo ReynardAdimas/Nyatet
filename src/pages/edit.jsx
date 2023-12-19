@@ -1,7 +1,7 @@
 import React from "react";
 import PageLayout from "../layouts/pageLayouts";
 import styled from "styled-components";
-import AddNoteForm from "../components/AddNoteForm";
+import EditNoteForm from "../components/EditNoteForm";
 import Container from "../components/ui/Container";
 
 const EditPage = () => {
@@ -9,7 +9,7 @@ const EditPage = () => {
     <PageLayout>
       <Container>
         <h1>Edit Notes</h1>
-        <EditForm />
+        <EditNoteForm />
       </Container>
     </PageLayout>
   );

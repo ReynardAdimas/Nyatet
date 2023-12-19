@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, FormGroup, Label, Input, TextArea } from './ui/Form';
+import { Form, FormGroup, Label, Input, TextArea } from './ui/Forms';
 import Button from './ui/button';
 
 const EditNoteForm = () => {
